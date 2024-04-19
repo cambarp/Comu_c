@@ -1,0 +1,36 @@
+.mostrar_datos table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mostrar_datos th,
+  .mostrar_datos td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .mostrar_datos th {
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .mostrar_datos td:last-child {
+    text-align: right;
+  }
+  
+  .mostrar_datos button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mostrar_datos button:hover {
+    background-color: #2980b9;
+  }
+  

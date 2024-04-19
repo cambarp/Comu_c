@@ -1,0 +1,25 @@
+<div class="mostrar_datos">
+    <table>
+      <thead>
+        <tr>
+          <th>Datos Usuario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nombre:</td>
+          <td>{{ datosPadre?.nombre }}</td>
+        </tr>
+        <tr>
+          <td>Correo:</td>
+          <td>{{ datosPadre?.correo }}</td>
+        </tr>
+        <tr>
+          <td>Contraseña:</td>
+          <td>{{ datosPadre?.contrasena }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <button (click)="enviarDatos_Padre()" >Reenviar</button>
+  </div>
+  

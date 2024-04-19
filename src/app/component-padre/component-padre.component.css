@@ -1,0 +1,106 @@
+.general{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  gap: 2.5vw;
+}
+
+.container__formu {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2.1vw 2.1vw;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.container__formu:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container__formu form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__formu label {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.container__formu input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.container__formu input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.container__formu button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container__formu button:hover {
+  background-color: #2980b9;
+}
+
+.visu__hijo{
+ width: 35vw;
+ height: 18vw;
+}
+
+
+.mostrar_datos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mostrar_datos th,
+.mostrar_datos td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.mostrar_datos th {
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+.mostrar_datos td:last-child {
+  text-align: right;
+}
+
+.mostrar_datos button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mostrar_datos button:hover {
+  background-color: #2980b9;
+}
